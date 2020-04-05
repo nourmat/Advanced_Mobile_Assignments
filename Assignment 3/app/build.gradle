@@ -41,11 +41,14 @@ dependencies {
     implementation "android.arch.lifecycle:extensions:$rootProject.archLifecycleVersion"
     annotationProcessor "android.arch.lifecycle:compiler:$rootProject.archLifecycleVersion"
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 
     // Retrofit
     implementation "com.squareup.retrofit2:retrofit:2.4.0"
     implementation "com.squareup.retrofit2:converter-scalars:2.4.0"
     implementation "com.squareup.retrofit2:converter-gson:2.4.0"
     implementation 'com.google.code.gson:gson:2.8.6'
+
+    //Work manger
+    implementation "androidx.work:work-runtime-ktx:2.3.4"
 }

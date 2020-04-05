@@ -39,8 +39,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mCountryViewModel.cacheFromTheInternet ("london");
-        mCountryViewModel.cacheFromTheInternet ("cairo");
-        mCountryViewModel.cacheFromTheInternet ("paris");
+        mCountryViewModel.startWorkManger();
     }
 }

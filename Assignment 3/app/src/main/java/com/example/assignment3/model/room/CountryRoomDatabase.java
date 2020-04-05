@@ -59,7 +59,7 @@ public abstract class CountryRoomDatabase extends RoomDatabase{
             // Start the app with a clean database every time.
             // Not needed if you only populate the database
             // when it is first created
-            mDao.deleteAllData();
+//            mDao.deleteAllData();
 //            mDao.insertData(country);
 
             return null;
